@@ -1,0 +1,30 @@
+{
+  "name": "vue-mobile",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "prettier": "prettier --write ."
+  },
+  "dependencies": {
+    "@vant/auto-import-resolver": "^1.1.0",
+    "@vant/use": "^1.6.0",
+    "axios": "^1.6.8",
+    "dayjs": "^1.11.11",
+    "nprogress": "^0.2.0",
+    "pinia": "^2.1.7",
+    "unplugin-auto-import": "^0.17.5",
+    "unplugin-vue-components": "^0.27.0",
+    "vant": "^4.9.0",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "prettier": "^3.2.5",
+    "vite": "^5.2.8"
+  }
+}
